@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "indirection_block_mod:block/indirection_block"
+  }
+}

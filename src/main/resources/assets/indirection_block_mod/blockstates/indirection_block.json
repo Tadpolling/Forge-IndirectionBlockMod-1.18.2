@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "indirection_block_mod:block/indirection_block" }
+  }
+}
