@@ -45,9 +45,9 @@ public class IndirectionBlockMod
         ModBlockEntities.register(modEventBus);
 
         //Loading Our Configs
-        ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, IndirectionModClientConfigs.SPEC,"tutorialmod-client.toml");
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, IndirectionModCommonConfigs.SPEC,"tutorialmod-common.toml");
-        ModLoadingContext.get().registerConfig(ModConfig.Type.SERVER, IndirectionModServerConfigs.SPEC,"tutorialmod-server.toml");
+        ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, IndirectionModClientConfigs.SPEC,"indirection_block_mod-client.toml");
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, IndirectionModCommonConfigs.SPEC,"indirection_block_mod-common.toml");
+        ModLoadingContext.get().registerConfig(ModConfig.Type.SERVER, IndirectionModServerConfigs.SPEC,"indirection_block_mod-server.toml");
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

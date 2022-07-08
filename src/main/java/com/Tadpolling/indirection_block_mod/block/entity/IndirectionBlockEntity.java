@@ -1,6 +1,7 @@
 package com.Tadpolling.indirection_block_mod.block.entity;
 
 //import com.Tadpolling.indirection_block_mod.config.TutorialModServerConfigs;
+import com.Tadpolling.indirection_block_mod.config.IndirectionModCommonConfigs;
 import com.Tadpolling.indirection_block_mod.config.IndirectionModServerConfigs;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.MoverType;
@@ -15,7 +16,7 @@ import java.util.List;
 
 
 public class IndirectionBlockEntity  extends BlockEntity {
-    protected static final int RADIUS_OF_EFFECT= IndirectionModServerConfigs.MOB_INDIRECT_BLOCK_RANGE.get();
+    protected static final int RADIUS_OF_EFFECT= IndirectionModCommonConfigs.MOB_INDIRECT_BLOCK_RANGE.get();
     protected static final int RANGE_OF_Y_FOR_MOVEMENT=2;
     public IndirectionBlockEntity(BlockPos pPos, BlockState pState) {
 
